@@ -33,5 +33,12 @@
   .reset-component;
   .input-counter(~"@{fishd-prefix}-input");
 }
-
+.@{fishd-prefix}-input-clear-icon {
+  color: @text-c;
+  cursor: pointer;
+  transition: all 0.3s;
+  &:hover {
+    color: @text-9;
+  }
+}
 @import "./search-input";

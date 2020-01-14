@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input.Search should support custom Button 1`] = `
+<span
+  class="fishd-input-search fishd-input-search-enter-button fishd-input-affix-wrapper"
+>
+  <input
+    class="fishd-input"
+    type="text"
+    value=""
+  />
+  <span
+    class="fishd-input-suffix"
+  >
+    <button
+      class="fishd-btn fishd-input-search-button"
+      type="button"
+    >
+      <span>
+        ok
+      </span>
+    </button>
+  </span>
+</span>
+`;
+
+exports[`Input.Search should support custom button 1`] = `
+<span
+  class="fishd-input-search fishd-input-search-enter-button fishd-input-affix-wrapper"
+>
+  <input
+    class="fishd-input"
+    type="text"
+    value=""
+  />
+  <span
+    class="fishd-input-suffix"
+  >
+    <button
+      type="button"
+    >
+      ok
+    </button>
+  </span>
+</span>
+`;
