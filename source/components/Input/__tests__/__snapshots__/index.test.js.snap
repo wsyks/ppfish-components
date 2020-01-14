@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input allowClear should change type when click 1`] = `
+<Input
+  allowClear={true}
+  disabled={false}
+  prefixCls="fishd-input"
+  type="text"
+>
+  <span
+    className="fishd-input-affix-wrapper"
+  >
+    <input
+      className="fishd-input"
+      disabled={false}
+      onChange={[Function]}
+      onKeyDown={[Function]}
+      style={null}
+      type="text"
+      value="111"
+    />
+    <span
+      className="fishd-input-suffix"
+    >
+      <Icon
+        className="fishd-input-clear-icon"
+        onClick={[Function]}
+        type="close-circle-fill"
+      >
+        <i
+          className="fishdicon fishdicon-close-circle-fill fishd-input-clear-icon"
+          onClick={[Function]}
+        />
+      </Icon>
+    </span>
+  </span>
+</Input>
+`;
+
+exports[`Input allowClear should change type when click 2`] = `
+<Input
+  allowClear={true}
+  disabled={false}
+  prefixCls="fishd-input"
+  type="text"
+>
+  <span
+    className="fishd-input-affix-wrapper"
+  >
+    <input
+      className="fishd-input"
+      disabled={false}
+      onChange={[Function]}
+      onKeyDown={[Function]}
+      style={null}
+      type="text"
+      value=""
+    />
+    <span
+      className="fishd-input-suffix"
+    />
+  </span>
+</Input>
+`;
+
+exports[`Input should support maxLength 1`] = `
+<Input
+  disabled={false}
+  maxLength="3"
+  prefixCls="fishd-input"
+  type="text"
+>
+  <input
+    className="fishd-input"
+    disabled={false}
+    maxLength="3"
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    type="text"
+    value=""
+  />
+</Input>
+`;
+
+exports[`Input.Search should support suffix 1`] = `
+<Search
+  enterButton={false}
+  inputPrefixCls="fishd-input"
+  prefixCls="fishd-input-search"
+  suffix="suffix"
+>
+  <Input
+    className="fishd-input-search"
+    disabled={false}
+    onPressEnter={[Function]}
+    prefixCls="fishd-input"
+    suffix={
+      Array [
+        "suffix",
+        <Icon
+          className="fishd-input-search-icon"
+          onClick={[Function]}
+          type="search-line"
+        />,
+      ]
+    }
+    type="text"
+  >
+    <span
+      className="fishd-input-search fishd-input-affix-wrapper"
+    >
+      <input
+        className="fishd-input"
+        disabled={false}
+        onChange={[Function]}
+        onKeyDown={[Function]}
+        style={null}
+        type="text"
+        value=""
+      />
+      <span
+        className="fishd-input-suffix"
+      >
+        suffix
+        <Icon
+          className="fishd-input-search-icon"
+          key="searchIcon"
+          onClick={[Function]}
+          type="search-line"
+        >
+          <i
+            className="fishdicon fishdicon-search-line fishd-input-search-icon"
+            onClick={[Function]}
+          />
+        </Icon>
+      </span>
+    </span>
+  </Input>
+</Search>
+`;
+
+exports[`TextArea should support disabled 1`] = `
+<TextArea
+  disabled={true}
+  prefixCls="fishd-input"
+>
+  <textarea
+    className="fishd-input fishd-input-disabled"
+    disabled={true}
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    style={Object {}}
+  />
+</TextArea>
+`;
+
+exports[`TextArea should support maxLength 1`] = `
+<TextArea
+  maxLength="10"
+  prefixCls="fishd-input"
+>
+  <textarea
+    className="fishd-input"
+    maxLength="10"
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    style={Object {}}
+  />
+</TextArea>
+`;

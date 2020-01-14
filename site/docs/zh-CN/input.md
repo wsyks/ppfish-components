@@ -366,6 +366,18 @@ render(){
 ```
 :::
 
+## 带移除图标
+
+:::demo 带移除图标的输入框，点击图标删除所有内容。
+
+```js
+  render(){
+    return(<Input placeholder="input with clear icon" allowClear />)
+  }
+```
+:::
+
+
 ## API
 
 ### Input
@@ -383,6 +395,7 @@ render(){
 | suffix | 带有后缀图标的 input | String | ReactNode | - |
 | type | 声明 input 类型，同原生 input 标签的 type 属性，见：[MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/input#属性)(请直接使用 `Input.TextArea` 代替 `type="textarea"`)。 | Enum | 'text' |
 | value | 输入框内容 | String | - |
+| allowClear | 可以点击清除图标删除内容 | boolean | false |
 
 > 如果 `Input` 在 `Form.Item` 内，并且 `Form.Item` 设置了 `id` 和 `options` 属性，则 `value` `defaultValue` 和 `id` 属性会被自动设置。
 
